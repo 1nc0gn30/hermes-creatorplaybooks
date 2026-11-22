@@ -1,0 +1,12 @@
+name: creatorplaybooks
+version: 0.1.0
+description: Unofficial community plugin for CreatorPlaybooks (creatorplaybooks.netlify.app). Read-only tools to list mentors, read a mentor's playbook and post ideas, and turn their plays into a dated 7/14/30/60/90-day plan.
+author: 1nc0gn30
+requires_hermes: ">=0.21.5"
+provides_tools:
+  - creatorplaybooks_mentors
+  - creatorplaybooks_mentor
+  - creatorplaybooks_playbook
+  - creatorplaybooks_ideas
+  - creatorplaybooks_goal_plan
+provides_hooks: []
