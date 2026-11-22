@@ -107,6 +107,8 @@ hermes plugins validate . --install-deps
 hermes plugins doctor . --ci
 ```
 
+`ci/github-actions-ci.yml` is the GitHub Actions workflow that runs the tests. Copy it to `.github/workflows/ci.yml` to turn it on.
+
 ## Changelog
 
 ### 0.1.0
